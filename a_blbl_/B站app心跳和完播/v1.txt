@@ -1,0 +1,178 @@
+NewStringUTF is at  0xe3b5acb5 _ZN3art3JNIILb0EE12NewStringUTFEP7_JNIEnvPKc
+451cb13d7c1e4d974edd865e18742375
+090d3b89531da1abf2261a7631308ae7
+a9cc56f6037b8de47755389203342c19
+e29bf43ebafcd2f61f41c767e03b7ccf
+0xb6f751a5 libbili.so!0x31a5
+0xaafd907b base.odex!0x1c107b
+
+java.lang.Throwable
+	at com.bilibili.nativelibrary.LibBili.s(Native Method)
+	at com.bilibili.nativelibrary.LibBili.g(BL:1)
+	at com.bilibili.okretro.f.a.h(BL:1)
+	at com.bilibili.okretro.f.a.c(BL:14)
+	at com.bilibili.okretro.f.a.a(BL:6)
+	at com.bilibili.okretro.d.a.execute(BL:24)
+	at com.bilibili.okretro.d.a$a.run(BL:2)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+0xb6f751a5 libbili.so!0x31a5
+0xaafd907b base.odex!0x1c107b
+
+java.lang.Throwable
+	at com.bilibili.nativelibrary.LibBili.s(Native Method)
+	at com.bilibili.nativelibrary.LibBili.g(BL:1)
+	at com.bilibili.okretro.f.a.h(BL:1)
+	at com.bilibili.okretro.f.a.d(BL:7)
+	at com.bilibili.okretro.f.a.a(BL:4)
+	at com.bilibili.okretro.d.a.execute(BL:24)
+	at com.bilibili.okretro.d.a$a.run(BL:2)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+0xb6f751a5 libbili.so!0x31a5
+0xaafd907b base.odex!0x1c107b
+
+java.lang.Throwable
+	at com.bilibili.nativelibrary.LibBili.s(Native Method)
+	at com.bilibili.nativelibrary.LibBili.g(BL:1)
+	at com.bilibili.okretro.f.a.h(BL:1)
+	at com.bilibili.okretro.f.a.d(BL:7)
+	at com.bilibili.okretro.f.a.a(BL:4)
+	at com.bilibili.okretro.d.a.execute(BL:24)
+	at com.bilibili.okretro.d.a$a.run(BL:2)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+0xb6f751a5 libbili.so!0x31a5
+0xaafd907b base.odex!0x1c107b
+
+java.lang.Throwable
+	at com.bilibili.nativelibrary.LibBili.s(Native Method)
+	at com.bilibili.nativelibrary.LibBili.g(BL:1)
+	at com.bilibili.okretro.f.a.h(BL:1)
+	at com.bilibili.okretro.f.a.d(BL:7)
+	at com.bilibili.okretro.f.a.a(BL:4)
+	at com.bilibili.okretro.d.a.execute(BL:24)
+	at com.bilibili.okretro.d.a$a.run(BL:2)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+325dfa66ff755f531c69378c735b0158
+0xb6f751a5 libbili.so!0x31a5
+0xaafd907b base.odex!0x1c107b
+
+java.lang.Throwable
+	at com.bilibili.nativelibrary.LibBili.s(Native Method)
+	at com.bilibili.nativelibrary.LibBili.g(BL:1)
+	at com.bilibili.okretro.f.a.h(BL:1)
+	at com.bilibili.okretro.f.a.c(BL:14)
+	at com.bilibili.okretro.f.a.a(BL:6)
+	at com.bilibili.okretro.d.a.execute(BL:24)
+	at com.bilibili.okretro.d.a$a.run(BL:2)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+ff3e3b3e9b25d253db10211cce0384cc
+0xb6f751a5 libbili.so!0x31a5
+0xaafd907b base.odex!0x1c107b
+
+java.lang.Throwable
+	at com.bilibili.nativelibrary.LibBili.s(Native Method)
+	at com.bilibili.nativelibrary.LibBili.g(BL:1)
+	at com.bilibili.okretro.f.a.h(BL:1)
+	at com.bilibili.okretro.f.a.c(BL:14)
+	at com.bilibili.okretro.f.a.a(BL:6)
+	at com.bilibili.okretro.d.a.execute(BL:24)
+	at com.bilibili.okretro.d.a$a.run(BL:2)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+c83c4f9b80c0d79a3a1b3f0766590022
+0xb6f751a5 libbili.so!0x31a5
+0xaafd907b base.odex!0x1c107b
+
+java.lang.Throwable
+	at com.bilibili.nativelibrary.LibBili.s(Native Method)
+	at com.bilibili.nativelibrary.LibBili.g(BL:1)
+	at com.bilibili.okretro.f.a.h(BL:1)
+	at com.bilibili.okretro.f.a.d(BL:7)
+	at com.bilibili.okretro.f.a.a(BL:4)
+	at com.bilibili.okretro.d.a.execute(BL:24)
+	at com.bilibili.okretro.d.a$a.run(BL:2)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+bd1ebf704c0fae1e35655e463c13ec47
+0xb6f751a5 libbili.so!0x31a5
+0xaafd907b base.odex!0x1c107b
+
+java.lang.Throwable
+	at com.bilibili.nativelibrary.LibBili.s(Native Method)
+	at com.bilibili.nativelibrary.LibBili.g(BL:1)
+	at com.bilibili.okretro.f.a.h(BL:1)
+	at com.bilibili.okretro.f.a.c(BL:14)
+	at com.bilibili.okretro.f.a.a(BL:6)
+	at com.bilibili.okretro.d.a.execute(BL:24)
+	at com.bilibili.okretro.d.a$a.run(BL:2)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+704480e86c5f88204cf7e200eed573af
+0xb6f751a5 libbili.so!0x31a5
+0xaafd907b base.odex!0x1c107b
+
+java.lang.Throwable
+	at com.bilibili.nativelibrary.LibBili.s(Native Method)
+	at com.bilibili.nativelibrary.LibBili.g(BL:1)
+	at com.bilibili.okretro.f.a.h(BL:1)
+	at com.bilibili.okretro.f.a.c(BL:14)
+	at com.bilibili.okretro.f.a.a(BL:6)
+	at com.bilibili.okretro.d.a.execute(BL:24)
+	at com.bilibili.okretro.d.a$a.run(BL:2)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+8d6547c501a5c90609d176ab174b9b8b
+9ee3bbe91032ad03f16bdcadbe1aa3a5
+0xb6f751a5 libbili.so!0x31a5
+0xaafd907b base.odex!0x1c107b
+
+java.lang.Throwable
+	at com.bilibili.nativelibrary.LibBili.s(Native Method)
+	at com.bilibili.nativelibrary.LibBili.g(BL:1)
+	at com.bilibili.okretro.f.a.h(BL:1)
+	at com.bilibili.okretro.f.a.c(BL:14)
+	at com.bilibili.okretro.f.a.a(BL:6)
+	at com.bilibili.okretro.d.a.execute(BL:24)
+	at com.bilibili.okretro.d.a$a.run(BL:2)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+0xb6f751a5 libbili.so!0x31a5
+0xaafd907b base.odex!0x1c107b
+
+java.lang.Throwable
+	at com.bilibili.nativelibrary.LibBili.s(Native Method)
+	at com.bilibili.nativelibrary.LibBili.g(BL:1)
+	at com.bilibili.okretro.f.a.h(BL:1)
+	at com.bilibili.okretro.f.a.d(BL:7)
+	at com.bilibili.okretro.f.a.a(BL:4)
+	at com.bilibili.okretro.d.a.execute(BL:24)
+	at tv.danmaku.biliplayerv2.service.SeekService$b.run(BL:9)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+

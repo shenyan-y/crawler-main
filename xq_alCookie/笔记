@@ -1,0 +1,14 @@
+阿里系cookie
+    acw_sc__v2 解析的参数
+    acw_tc
+
+请求两次: 第一次返回js代码 响应一个cookie的值 在js代码生成新的cookie
+再发送第二次请求
+
+
+
+
+
+
+
+

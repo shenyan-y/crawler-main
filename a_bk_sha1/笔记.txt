@@ -1,0 +1,57 @@
+
+
+at okhttp3.Request$Builder.addHeader(Native Method)
+        at com.homelink.newhouse.lib.core.net.d.b.intercept(HeaderInterceptor.java:137)
+        at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+        at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+        at com.homelink.newhouse.lib.core.net.d.a.intercept(AnchorInterceptor.java:63)
+        at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+        at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+        at com.ke.trafficstats.LJTSHTTPInterceptor.intercept(LJTSHTTPInterceptor.java:69)
+        at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+        at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+        at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:257)
+        at okhttp3.RealCall.execute(RealCall.java:93)
+        at retrofit2.OkHttpCall.execute(OkHttpCall.java:180)
+        at com.homelink.newhouse.lib.core.net.rxadapter.a$a.call(LinkRxCallAdapterFactory.java:97)
+        at com.homelink.newhouse.lib.core.net.rxadapter.a$a.call(LinkRxCallAdapterFactory.java:73)
+        at rx.Observable.unsafeSubscribe(Observable.java:10346)
+        at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:48)
+        at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:33)
+        at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+        at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+        at rx.Observable.unsafeSubscribe(Observable.java:10346)
+        at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:48)
+        at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:33)
+        at rx.Observable.unsafeSubscribe(Observable.java:10346)
+        at rx.internal.operators.OnSubscribeSwitchIfEmpty$ParentSubscriber.subscribe(OnSubscribeSwitchIfEmpty.java:101)
+        at rx.internal.operators.OnSubscribeSwitchIfEmpty.call(OnSubscribeSwitchIfEmpty.java:52)
+        at rx.internal.operators.OnSubscribeSwitchIfEmpty.call(OnSubscribeSwitchIfEmpty.java:31)
+        at rx.Observable.unsafeSubscribe(Observable.java:10346)
+        at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:48)
+        at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:33)
+        at rx.Observable.unsafeSubscribe(Observable.java:10346)
+        at rx.internal.operators.OperatorSubscribeOn$SubscribeOnSubscriber.call(OperatorSubscribeOn.java:100)
+        at rx.internal.schedulers.CachedThreadScheduler$EventLoopWorker$1.call(CachedThreadScheduler.java:230)
+        at rx.internal.schedulers.ScheduledAction.run(ScheduledAction.java:55)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+        at java.lang.Thread.run(Thread.java:919)
+
+
+d5e343d453aecca8b14b2dc687c381
+
+https://app.api.ke.com/house/ershoufang/detailpart0v1?houseCode=107108695424&cityId=310000&fb_expo_id=788885408347029564&demandForm=preload&communityId=50000000001664
+
+SHA1ToString = sha1(d5e343d453aecca8b14b2dc687c381cacityId=310000communityId=5011000013192demandForm=preloadfb_expo_id=788885408347029566houseCode=107108703793)
+
+
+base64(20180111_android +  ":" + SHA1ToString)
+
+
+
+
+

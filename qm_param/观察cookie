@@ -1,0 +1,48 @@
+PHPSESSID=b7k8a9mju5sp9hhs98k0248bj5; qm_check=A1sdRUIQChtxen8pI0dAMRcOUFseEHBeQF0JTjVBWDAIXEQaYhAQbF1FIRUJCBETVkQSGAlIBAhVVlNeOU9TFXNbQlxTQAshV1ZIDgolAGgCEElDaw06VktIPEo+BAYbEhUSV1AABQxKQltKGQceABUAGAhHGw%3D%3D; gr_user_id=5390c47b-3b7a-452d-967b-653ce223f18c; USERINFO=OyMSILkcoG6BWoPWLYY0kDiopi1GPrSBBHV5PesVKK%2BJ%2FKoPyB4UsMDVf%2Blch4axF%2BMBJERWSyKbSYXjW6kM8JjrRti%2BUvIqUN%2BnsddmjUs64BpdmlSDXyXGKNqQpn6SI7R2TI0rWCyLv1gTpr75lA%3D%3D; AUTHKEY=S%2B72NrGac8BvUXS9sjPzPznpXtFQGr5zArmVbUpRarb1n%2BlSyy5EUln4bxN9QNeJY3Q7LxmrvpRSIFkqSXNhiFHxfCrKQiH%2BW9vwmqlozIvVNZhGxi1y1w%3D%3D; ada35577182650f1_gr_last_sent_cs1=qm24340497874; synct=1749301929.418; syncd=-396; aso_ucenter=951dDGFjLll0oil4iXlMgT1KajmAlbeN3r6Unk0a0P2qoMLxaMfsUm19Py7npl%2FNFJk; ada35577182650f1_gr_session_id=d96e1faa-4f32-4c50-94a8-98be792cad0c; ada35577182650f1_gr_last_sent_sid_with_cs1=d96e1faa-4f32-4c50-94a8-98be792cad0c; ada35577182650f1_gr_cs1=qm24340497874; ada35577182650f1_gr_session_id_sent_vst=d96e1faa-4f32-4c50-94a8-98be792cad0c
+PHPSESSID=b7k8a9mju5sp9hhs98k0248bj5; qm_check=A1sdRUIQChtxen8pI0dAMRcOUFseEHBeQF0JTjVBWDAIXEQaYhAQbF1FIRUJCBETVkQSGAlIBAhVVlNeOU9TFXNbQlxTQAshV1ZIDgolAGgCEElDaw06VktIPEo+BAYbEhUSV1AABQxKQltKGQceABUAGAhHGw%3D%3D; gr_user_id=5390c47b-3b7a-452d-967b-653ce223f18c; USERINFO=OyMSILkcoG6BWoPWLYY0kDiopi1GPrSBBHV5PesVKK%2BJ%2FKoPyB4UsMDVf%2Blch4axF%2BMBJERWSyKbSYXjW6kM8JjrRti%2BUvIqUN%2BnsddmjUs64BpdmlSDXyXGKNqQpn6SI7R2TI0rWCyLv1gTpr75lA%3D%3D; AUTHKEY=S%2B72NrGac8BvUXS9sjPzPznpXtFQGr5zArmVbUpRarb1n%2BlSyy5EUln4bxN9QNeJY3Q7LxmrvpRSIFkqSXNhiFHxfCrKQiH%2BW9vwmqlozIvVNZhGxi1y1w%3D%3D; ada35577182650f1_gr_last_sent_cs1=qm24340497874; synct=1749301929.418; syncd=-396; aso_ucenter=951dDGFjLll0oil4iXlMgT1KajmAlbeN3r6Unk0a0P2qoMLxaMfsUm19Py7npl%2FNFJk; ada35577182650f1_gr_session_id=d96e1faa-4f32-4c50-94a8-98be792cad0c; ada35577182650f1_gr_last_sent_sid_with_cs1=d96e1faa-4f32-4c50-94a8-98be792cad0c; ada35577182650f1_gr_cs1=qm24340497874; ada35577182650f1_gr_session_id_sent_vst=d96e1faa-4f32-4c50-94a8-98be792cad0c
+
+
+
+
+ew8nHiYrSQ17WAcUKht0BCtUIRsaPjRAUG8hCwMLAwkmREcKGBReHl4NAARBZgkTFEcaCxtbVWgKAE4LdkZeX1hPTkMHAAFQVCEaBQ==
+ew8nHiYrSQ17WAcUKht0BCohIRsaPjRAUG8hCwMLAwkmREcKGBReHl4NAARBZgkTFEcaCxtbVWgKAE4LdkZeX1hPTkMHAgRVVSEaBQ==
+
+
+
+xxxx.interceptors.request.use(function(){}, function(){})
+xxxx.interceptors.response.use(function(){}, function(){})
+
+function fn(){
+    // 非常严重的混淆
+    return 'interceptors'
+}
+xxxx[fn()]['request']['use'](function(){a1}, function(){a2})
+xxxx[fn()]['request']['use'](function(){a3}, function(){a4})
+
+xxxx.interceptors.response.use(function(){r1}, function(){r2})
+xxxx.interceptors.response.use(function(){r3}, function(){r4})
+
+var t = [a3, a4, a1, a2, o, void 0, r1, r2, r3, r4]
+a3, a4, a1, a2: 请求之前要做的事
+r1, r2, r3, r4: 响应回来要做的事
+所以 o是发请求
+
+for (this.interceptors.request.forEach((function(e) {
+                t.unshift(e.fulfilled, e.rejected)
+            }
+            )),
+            this.interceptors.response.forEach((function(e) {
+                t.push(e.fulfilled, e.rejected)
+            }
+            )); t.length; )
+                n = n.then(t.shift(), t.shift());
+
+n: promise对象 发送请求的第一个事 open
+t里面装了所有的拦截器 两两一组
+
+
+
+
+
+
+
